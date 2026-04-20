@@ -2,25 +2,25 @@ class GitKasa < Formula
   desc "Stacked Merge Requests CLI for GitLab"
   homepage "https://gitlab.com/remote-com/employ-starbase/kasa"
   license "MIT"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.5/git-kasa-darwin-arm64.tar.gz"
-      sha256 "0da55883eca23274f49b849d50f0b97c1a3847d2f96f0639cbcea6a52a6d79d2"
+      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.6/git-kasa-darwin-arm64.tar.gz"
+      sha256 "9b714df26e4819502fcaba3418cbfb76702de4815cd50ab41993abe125ad0796"
     else
-      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.5/git-kasa-darwin-x64.tar.gz"
-      sha256 "ca166a43d164202875c3a9feb5a02b529e37236163df63841d49552a9007180e"
+      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.6/git-kasa-darwin-x64.tar.gz"
+      sha256 "c80fbdbeebb2e21c7a47415ce47cb8d60d9ca982c7a0fcdeede0a702fbf55bee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.5/git-kasa-linux-arm64.tar.gz"
-      sha256 "0aaeb3291e59e3921d265a509f2fbfddc9d3a821f70e5e5061a37b271eb93689"
+      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.6/git-kasa-linux-arm64.tar.gz"
+      sha256 "5e045164b427ef20f807c15496ba9e91969fba9458fedbce1971f0b582ed195a"
     else
-      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.5/git-kasa-linux-x64.tar.gz"
-      sha256 "92391b1f3eb4fc6c12012bf17420813dfc46527d30e8d38bd37b59691e7548e9"
+      url "https://gitlab.com/api/v4/projects/81261636/packages/generic/git-kasa/0.1.6/git-kasa-linux-x64.tar.gz"
+      sha256 "2dd0ee2b115537a747009b554b18cf56feaba972a10e5531585e7e2dd1dfd177"
     end
   end
 
